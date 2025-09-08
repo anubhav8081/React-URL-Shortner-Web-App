@@ -1,42 +1,55 @@
+# From repository root
+./install.sh    # Installs both frontend/backend dependencies
+./run.sh        # Launches both servers concurrently
+``` :contentReference[oaicite:4]{index=4}
 
-# URL Shortener
+---
 
-This is a fullstack url shortening project build with reactjs and nodejs
+##  Usage
 
-## Description
-URL Shortener is a web application that allows users to create short and easy-to-share URLs from long and complex ones. It is built with React.js for the frontend and Node.js for the backend. It also uses MongoDB as a database service to store the URL mappings. This ui is a solution for a [Frontend Mentor challenge](https://www.frontendmentor.io/challenges). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+1. Open the app in your browser (typically at `http://localhost:3000`).
+2. Input the long URL you wish to shorten.
+3. Click "Shorten" and copy the resulting link with a single click.
+4. Your shortened links persist across sessions, displayed in a neat list.
 
-## Overview
+---
 
-### Features 
-Users should be able to:
+##  Contribution
 
-- View the optimal layout for the site depending on their device's screen size
-- Shorten any valid URL
-- See a list of their shortened links, even after refreshing the browser
-- Copy the shortened link to their clipboard in a single click
-- Receive an error message when the `input` is invalid
+Contributions are welcome!
 
-### Screenshot
+1. Fork the repository.
+2. Create a new branch (`feature/your-feature`).
+3. Make your changes and commit them.
+4. Open a pull request.
 
-![url-shortener](https://github.com/Plasticfoods/URL-Shortener/assets/109089484/42dc9e47-39c4-4636-8071-808f3e4a8833)
+Please follow any contribution guidelines and the project's code of conduct. :contentReference[oaicite:5]{index=5}
 
-### Links
-* [Live URL](https://render-little-url.netlify.app/)
-* [Solution](https://github.com/Plasticfoods/URL-Shortener)
+---
 
-## My process
+##  License
 
-### Built with
+This project is open-source under the terms specified in the repository. (If license details are absent, consider adding an appropriate license such as MIT or Apache-2.0.)
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- [tailwindcss](https://tailwindcss.com/) - CSS framework
-- [React](https://reactjs.org/) - JS library
-- [Express](https://expressjs.com/) - Nodejs framework
-- [MongoDB](https://www.mongodb.com/) - NoSQL databases
- 
-## Contributing
-If you want to contribute to this project, you can report issues, suggest new features, or submit pull requests on GitHub. Please follow the code of conduct and the contribution guidelines before making any changes.
+---
+
+##  Acknowledgments
+
+- Built as part of a **Frontend Mentor challenge**, which provided a great design and development exercise. :contentReference[oaicite:6]{index=6}
+- Charts and design inspirations (if any) can be added here.
+
+---
+
+##  What’s Next?
+
+Consider adding features such as:
+
+- User authentication and personal dashboards  
+- Analytics for click-through rates  
+- Custom alias support  
+- URL expiration or limit features  
+
+---
+
+If you'd like the README to be more **minimalist**, **tutorial-style**, or include **screenshots** and **badges**, just let me know—I’d be happy to tailor it further!
+::contentReference[oaicite:7]{index=7}
